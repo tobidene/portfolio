@@ -1,0 +1,37 @@
+body{
+  margin:0px;
+  background-color: #FAD9CE;
+  font-size: 20px;
+  font-family:monospace;
+}
+
+header{
+  background-color: #662610;
+  padding: 1em;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  position: sticky;
+  top:0;
+  z-index:2;
+  height:5rem;
+  color:white;
+}
+
+nav{
+  margin-left: auto;
+
+}
+.nav-list{
+  list-style-type:  none;
+
+}
+
+.nav-list li{
+  display:inline;
+  padding: 1em;
+}
+
+.nav-list li a{
+  text-decoration: underline;
+}
