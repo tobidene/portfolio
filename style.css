@@ -21,6 +21,13 @@ header{
   color:white;
 }
 
+h2{
+  font-size: 5em;
+  font-weight: 700;
+  font-variant: small-caps;
+  font-family: Made,Helvetica,Arial,sans-serif;
+}
+
 nav{
   margin-left: auto;
 
@@ -60,12 +67,22 @@ nav{
 }
 
 .about-title h1{
-  color:black;
-  font-size: 6.1em;
-  font-weight: 600;
+  color:#662610;
+  font-size: 6em;
+  font-weight: 800;
   font-variant: small-caps;
   font-family: Made,Helvetica,Arial,sans-serif;
-  width: 60%;
+
+}
+
+.about-text{
+  margin-right: 3em;
+}
+
+.about-text p{
+  position: relative;
+  top:-3em;
+
 }
 
 
@@ -75,6 +92,31 @@ nav{
   margin-left: auto;
   border-radius: 10px;
   }
+
+  .about-title p{
+    margin-right: auto;
+    align-self:flex-end;
+  }
+
+
+  .project-grid {
+  border: 2px blue solid;
+  width: 100%;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2,1fr);
+  row-gap: 10px;
+  column-gap: 15px;
+}
+
+.project-picture{
+
+}
+
+.project-description{
+
+}
 
 .content{
   margin:0em 5em;
